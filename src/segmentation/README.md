@@ -31,3 +31,12 @@ To make sure you have installed the required modules, create a virtual environme
 pip install -r requirements.txt
 ```
 in the `segmentation/` folder
+
+## Acknowledgements
+
+This model was trained using the **ADE20K** dataset and the **river_segs** subset from the *water_v2* dataset, available at:  
+https://www.kaggle.com/datasets/gvclsu/water-segmentation-dataset
+
+The model architecture and training workflow were developed by adapting methods from the following Kaggle notebook:  
+https://www.kaggle.com/code/utkarshsaxenadn/water-body-segmentation-unet-model
+
