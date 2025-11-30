@@ -25,3 +25,9 @@ required custom layers (Encoder and Decoder). \
 You can try the model on four example images stored in `our_images/`.
 
 To use the notebook, open it in VS Code, Jupyter, or Colab, and make sure that UNET_best_bs8.keras exists in the `segmentation/` folder. Then run all cells. 
+
+To make sure you have installed the required modules, create a virtual environment and run
+```
+pip install -r requirements.txt
+```
+in the `segmentation/` folder
