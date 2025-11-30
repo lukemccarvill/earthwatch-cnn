@@ -40,3 +40,6 @@ https://www.kaggle.com/datasets/gvclsu/water-segmentation-dataset
 The model architecture and training workflow were developed by adapting methods from the following Kaggle notebook:  
 https://www.kaggle.com/code/utkarshsaxenadn/water-body-segmentation-unet-model
 
+The images supplied are from Earthwatch's Great UK Water Blitz survey:\
+https://www.freshwaterwatch.org/pages/great-uk-waterblitz-results
+
