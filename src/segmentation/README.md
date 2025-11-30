@@ -11,6 +11,10 @@ In the terminal, from this `segmentation/` directory, run:
 ```bash
 bash download_model.sh
 ```
+You may need to run
+```
+pip install gdown
+```
 
 ## Test the model using the example notebook
 ```
