@@ -10,3 +10,14 @@ In the terminal, from this `segmentation/` directory, run:
 
 ```bash
 bash download_model.sh
+```
+
+## Test the model using the example notebook
+```
+loading_segmentation_model.ipynb
+```
+This notebook demonstrates how to load the pretrained UNet model for water segmentation and also includes definitions for the
+required custom layers (Encoder and Decoder). \
+You can try the model on four example images stored in `our_images/`.
+
+To use the notebook, open it in VS Code, Jupyter, or Colab, and make sure that UNET_best_bs8.keras exists in the `segmentation/` folder. Then run all cells. 
