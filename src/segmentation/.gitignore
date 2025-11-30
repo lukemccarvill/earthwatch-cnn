@@ -1,0 +1,6 @@
+# ignore models
+models/
+*.keras
+*.h5
+*.pth
+
