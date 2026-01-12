@@ -1,4 +1,5 @@
-"""In progress - CNN PyTorch training script - RT 09/01/26"""
+"""In progress - CNN PyTorch training script for a CNN to predict water 
+quality based on citizen science images from Earthwatch - RT 09/01/26"""
 
 import torch #The core PyTorch library: tensors, autograd, device handling
 import torch.nn as nn #Containts layers (convolutions, linear layers, pooling)
@@ -65,7 +66,7 @@ for epoch in range(1, num_epochs + 1):
             print(f"Epoch {epoch}  Batch {i}  Loss {avg:.4f}")
             running_loss = 0.0
 
-    #Evaluation loop.
+    #Evaluation loop
     model.eval()
     correct = 0
     total = 0

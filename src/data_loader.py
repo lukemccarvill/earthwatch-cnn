@@ -14,6 +14,7 @@ import pandas as pd
 
 classes = ('Poor', 'Moderate', 'Good')
 labels_csv_path = "data/labels.csv" #Maps filenames to class names
+#Need to use the global ID to link? 
 
 
 # --- transforms:
