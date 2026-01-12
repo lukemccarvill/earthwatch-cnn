@@ -7,7 +7,7 @@ import torch
 from torchvision import transforms
 
 # --- Config ---
-img_dir = "data/images/training"
+img_dir = "data/images"
 target_size = (224, 224)
 
 # ImageNet mean/std (typical for pretrained CNNs like ResNet)
@@ -67,7 +67,7 @@ for i, filename in enumerate(image_files):
     # 3. Un-normalise for plotting
     t_vis = unnormalize(t, IMAGENET_MEAN, IMAGENET_STD)
 
-    #t_vis = t
+    # t_vis = t
 
     # 4. Convert to HWC NumPy for matplotlib
     np_img = t_vis.permute(1, 2, 0).numpy()
