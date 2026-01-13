@@ -1,6 +1,8 @@
 """In progress - CNN PyTorch training script for a CNN to predict water 
 quality based on citizen science images from Earthwatch - RT 09/01/26"""
 
+#At the minute no validation, just training and test, need to divide the training data into training and validation. 
+
 import torch #The core PyTorch library: tensors, autograd, device handling
 import torch.nn as nn #Containts layers (convolutions, linear layers, pooling)
 import torch.nn.functional as F #Contains operations/functions applied to data, like RELU
