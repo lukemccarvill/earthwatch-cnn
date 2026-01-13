@@ -20,6 +20,7 @@ pip install gdown
 ```
 loading_segmentation_model.ipynb
 ```
+(The second loading_segmentation_model is in progress and will be used for a real dataset instead of the toy one).\
 This notebook demonstrates how to load the pretrained UNet model for water segmentation and also includes definitions for the
 required custom layers (Encoder and Decoder). \
 You can try the model on four example images stored in `our_images/`.
