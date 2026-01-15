@@ -7,3 +7,5 @@ earthwatch-cnn
 /home/teaching/earthwatch-cnn/src/cnn_and_data_loader.ipynb
 src/segmentation/loading_segmentation_model_2.ipynb
 data/labels.csv
+/home/teaching/earthwatch-cnn/src/MLP_2_classes_non_linear_features.ipynb
+/home/teaching/earthwatch-cnn/src/MLP_2_classes_non_linear_features_2.ipynb
