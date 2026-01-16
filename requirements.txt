@@ -94,3 +94,11 @@ urllib3==2.6.2
 wcwidth==0.2.14
 Werkzeug==3.1.4
 wrapt==2.0.1
+
+# luke added: (may be redundancies)
+    # conda activate waterqualcnn
+    # python -m pip install -r requirements.txt
+pandas
+scikit-learn
+opencv-python
+openpyxl

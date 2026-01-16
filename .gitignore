@@ -1,6 +1,6 @@
 __pycache__/ 
 .ipynb_checkpoints/ 
-# data/ 
+data/Great_UK_WaterBlitz
 .env
 src/segmentation/venv/
 earthwatch-cnn
